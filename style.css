@@ -1,0 +1,154 @@
+body{
+    margin:0;
+    padding:0;
+}
+nav{
+    font:13px arial,sans-serif;
+}
+ul{
+    list-style-type:none;
+    margin:1rem;
+    padding:0;
+    float:right;
+    font:13px arial,sans-serif;
+}
+li{
+    padding:1rem;
+    display:inline;
+}
+li a {
+    color: #000;
+    text-decoration: none;
+    
+  }
+li a:hover{
+    text-decoration:underline;
+}
+.grid{
+    height:1.2rem;
+    width:1.2rem;
+    position:relative;
+}
+.google_image{
+    height: auto;
+    width: 272px;
+}
+.btn{
+    padding:0.6rem;
+    border-radius:3%;
+    background:#4285f4;
+    border:none;
+    font:13px arial,sans-serif;
+    color:#ffffff;
+    font-weight:bold;
+}
+.btn:hover{
+    box-shadow: 0 1px 2px black;
+}
+.img{
+    padding:11rem 0 0;
+    text-align:center;
+}
+.input{
+    width:482px;
+    height:44px;
+    font-size:1.5rem;
+    border-radius:30px;
+    border:1px solid lightgrey;
+    outline:none;
+}
+.input:hover{
+    box-shadow:0.1px 0.5px 2px 0px rgb(155, 152, 152);
+}
+
+
+.btn-section{
+    width:487px;
+    height:58px;
+    color:#222222;
+    display:inline;
+}
+.link_button{
+    color: #000;
+    text-decoration: none;
+    margin:11px 4px;
+}
+.btn-down{
+    margin:2rem 0 0.2rem;
+    border-radius:5%;
+    padding:0.8rem;
+    background-color:#f2f2f2;
+    border:none;
+}
+.btn-down a{
+    color:rgb(99, 96, 96);
+}
+.btn-down:hover{
+    border:0.5px solid rgb(212, 208, 208);
+    box-shadow: 0 1px 2px rgb(177, 173, 173);
+}
+.para{
+    padding-top:1rem;
+    font:13px arial,sans-serif;
+}
+/* footer */
+.box{
+    bottom:0;
+    width:100%;
+    position:fixed;
+    background-color:#f2f2f2;
+    color:gray;
+    font:13px arial,sans-serif;
+}
+.box1{
+    padding:1rem 2rem;
+    height:20%;
+    border-top:0.5px solid #ddd8d8;
+}
+.box2{
+    height:20%;
+    padding:0 0 0.5rem 0;
+    border-top:0.5px solid #ddd8d8;
+}
+.list1{
+    float:left;
+}
+.list1 a{
+    color:rgb(99, 96, 96) !important;
+}
+.list2 a{
+    color:rgb(99, 96, 96) !important;
+}
+.dropbtn{
+    border:none;
+    background-color:#f2f2f2;
+    color:rgb(99, 96, 96) !important;
+}
+.dropup{
+    position:relative;
+    display:inline-block;
+}
+.dropup-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    bottom: 50px;
+    z-index: 1;
+  }
+.dropup-content a{
+    color:rgb(99, 96, 96) !important;
+    padding: 12px 16px;
+    float:left;
+    text-decoration: none;
+    display: block;
+}
+.dropup-content a:hover {background-color: #ccc}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.dropup:hover .dropbtn {
+  background-color: #2980B9;
+}
